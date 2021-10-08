@@ -1,0 +1,127 @@
+/* Tag Selectors */
+body {
+  background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg);
+}
+
+/* Headings */
+.section-heading {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Paragraphs */
+.section-paragraph {
+  color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+/* Container Section */
+.container-fluid {
+  padding: 3% 5%;
+  text-align: left;
+}
+
+.desc-column {
+  padding: 2% 4% 2% 0;
+}
+
+/* Heading Section*/
+#heading {
+  margin-bottom: 64px;
+}
+
+/* Images */
+.logo-img {
+  width: 200px;
+}
+
+.windows-img {
+  width: 85%;
+}
+
+/* Register Button */
+.register-button {
+	box-shadow: 0px 10px 14px -7px purple;
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:hsl(257, 40%, 49%);
+	font-family:Arial;
+	font-size:20px;
+	padding:12px 65px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.register-button:hover {
+	background-color:#f6f6f6;
+  text-decoration: none;
+}
+.register-button:active {
+	position:relative;
+	top:1px;
+}
+
+/* Footer-section */
+.social-icons {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.social-button {
+  border-radius: 100%;
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Credits Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queris; */
+@media (max-width: 992px) {
+
+body {
+  background-image: url(../images/bg-mobile.svg);
+  background-size: cover;
+}
+
+  .container-fluid {
+    padding: 5% 10%;
+    text-align: center;
+  }
+
+  #heading {
+    text-align: left;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .section-paragraph {
+    margin: 20px 0;
+  }
+
+  .windows-img {
+    width: 95%;
+    margin-bottom: 40px;
+  }
+
+  .social-icons {
+    text-align: center;
+    margin: 50px 0;
+  }
+}
